@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Grow-layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+    <div class="root">
+      <header>
+        <div class="header__top">
+          <ul class="contact-info">
+            <!--contact-info-->
+            <li class="contact-info__item ">
+              <a href="#" class="contact-info__link active ">Get A Quote</a>
+            </li>
+            <li class="contact-info__item">
+              <a href="tel:+01123456789" class="contact-info__link">
+                <i class="bi bi-telephone contact-info__icon"></i>
+                01 123 456 7890
+              </a>
+            </li>
+            <li class="contact-info__item">
+              <a href="mailto:info@email.com" class="contact-info__link">
+                <i class="bi bi-envelope-open contact-info__icon"></i>
+                info@example.com
+              </a>
+            </li>
+            <li class="contact-info__item">
+              <address class="contact-info__link">
+                <i class="bi bi-geo-alt contact-info__icon"></i>
+                32 Waelchi Estate Suite 598
+              </address>
+            </li>
+          </ul>
+
+          <div class="header-widget">
+            <!--widgets-->
+            <select name="Eng" class="form-select">
+              <option value="Eng">Eng</option>
+              <option value="Eng1">Eng2</option>
+            </select>
+            <button type="button" class="widget__item">
+              <i class="bi bi-search"></i>
+            </button>
+            <button type="button" class="widget__item">
+              <i><i class="bi bi-handbag"></i></i>
+            </button>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <div class="container">
+            <nav class="nav-bar">
+              <ul class="nav">
+                <!-- nav-->
+
+                <li class="nav__item">
+                  <span class="nav__link">HOME<i class="bi bi-chevron-compact-down nav-icon"></i></span>
+                  <ul class="sub-menu">
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Home-1</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Home-2</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Home-3</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__item">
+                  <span class="nav__link">SERVICES<i class="bi bi-chevron-compact-down nav-icon"></i></span>
+                  <ul class="sub-menu">
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Service-1</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Service-2</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Service-3</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__item">
+                  <span class="nav__link">PROJECTS<i class="bi bi-chevron-compact-down nav-icon"></i></span>
+                  <ul class="sub-menu">
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Projects-1</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Projects-2</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Projects-3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+              <a href="#" class="nav-bar__brand">
+                <img src="assets/images/logo-color.png" alt="Image of logo" width="158" height="50" class="site-logo">
+              </a>
+
+              <ul class="nav">
+                <!-- nav-->
+
+                <li class="nav__item">
+                  <span class="nav__link">NEWS<i class="bi bi-chevron-compact-down nav-icon"></i></span>
+                  <ul class="sub-menu">
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">News-1</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">News-2</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">News-2</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__item">
+                  <span class="nav__link">PAGES<i class="bi bi-chevron-compact-down nav-icon"></i></span>
+                  <ul class="sub-menu">
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Pages-1</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Pages-2</a>
+                    </li>
+                    <li class="nav__item">
+                      <a href="#" class="nav__link">Pages-3</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__item">
+                  <a href="#" class="nav__link">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <!--container-body-->
+        <section class="page__title-bar">
+          <!--for maintaning align space-->
+          <div class="container">
+            <!--Breadcrum area -->
+            <h1 class="page-title">Our Services</h1>
+            <ul class="breadcrumb">
+              <li class="breadcrumb__item">
+                <a href="#" class="breadcrumb__link">Home</a>
+              </li>
+              <li class="breadcrumb__item">&#62;</li>
+              <li class="breadcrumb__item">
+                <span class="breadcrumb__item"> Services </span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="container-main">
+          <!--for maintaning align space-->
+          <div class="container">
+            <div class="row">
+              <div class=" col col-8">
+                <div class="row mb-30">
+                  <div class="col col-6">
+                    <div class="card-image">
+                      <img src="assets/images/services/service-1.jpg" alt="Image of service 1" width="380" height="248">
+                    </div>
+                  </div>
+                  <div class="col col-6">
+                    <div class="card-body">
+                      <h2 class="card-title">Landscape Designing</h2>
+                      <p class="card-desc">
+
+                        Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry. Lorem <br>
+                        Ipsum has been the industry's..
+
+                      </p>
+                      <a class="btn" href="#">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-reverse mb-30">
+
+                  <div class="col col-6">
+                    <div class="card-image">
+                      <img src="assets/images/services/service-2.jpg" alt="Image of service 2" width="380" height="248">
+
+                    </div>
+                  </div>
+                  <div class="col col-6">
+                    <div class="card-body">
+                      <h2 class="card-title">Event Decorations</h2>
+                      <p class="card-desc">
+                        Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry. Lorem <br>
+                        Ipsum has been the industry's..
+
+                      </p>
+                      <a class="btn" href="#">Read more</a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row mb-30">
+                  <div class="col col-6">
+                    <div class="card-image">
+                      <img src="assets/images/services/service-3.jpg" alt="Image of service 3" width="380" height="248">
+
+                    </div>
+                  </div>
+                  <div class="col col-6">
+                    <div class="card-body">
+                      <h2 class="card-title">Complete Garden Care</h2>
+                      <p class="card-desc">
+                        Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry. Lorem <br>
+                        Ipsum has been the industry's..
+
+                      </p>
+                      <a class="btn" href="#">Read more</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="row row-reverse mb-30">
+                  <div class="col col-6">
+                    <div class="card-image">
+                      <img src="assets/images/services/service-4.jpg" alt="Image of service 4" width="380" height="248">
+
+                    </div>
+                  </div>
+                  <div class="col col-6">
+                    <div class="card-body">
+                      <h2 class="card-title">Event Decorations</h2>
+                      <p class="card-desc">
+                        Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry. Lorem <br>
+                        Ipsum has been the industry's..
+
+                      </p>
+                      <a class="btn" href="#">Read more</a>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row ">
+                  <div class="col col-6">
+                    <div class="card-image">
+                      <img src="assets/images/services/service-5.jpg" alt="Image of service 5" width="380" height="248">
+
+                    </div>
+                  </div>
+                  <div class="col col-6">
+                    <div class="card-body">
+                      <h2 class="card-title">Sprinkler Installation</h2>
+                      <p class="card-desc">
+                        Lorem Ipsum is simply dummy text of the<br>
+                        printing and typesetting industry. Lorem <br>
+                        Ipsum has been the industry's..
+
+                      </p>
+                      <a class="btn" href="#">Read more</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <aside class="col col-4">
+                <div class="aside__form">
+                  <div class="form-header">
+                    <i class="bi bi-pencil-square form-header__icon "></i><!--icon inserted-->
+                    <h3 class="form-header__title">Request A Proposal</h3>
+                    <p class="form-header__body">
+
+                      Send us your basic requirement by filling<br>
+                      up below form and we'll connect you<br>
+                      shortly for sure.
+                    </p>
+                  </div>
+                  <div class="form__container">
+                    <form>
+                      <div class="form-group">
+                        <input type="text" name="name" placeholder="Name" class="form__control">
+                        <i class="bi bi-person form-icon"></i>
+                        <!--icon inserted-->
+                      </div>
+                      <div class="form-group">
+                        <input type="email" name="email" placeholder="Email Address" class="form__control">
+                        <i class="bi bi-envelope-open form-icon"></i><!--icon inserted-->
+                      </div>
+                      <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone No." class="form__control">
+                        <i class="bi bi-telephone form-icon"></i><!--icon inserted-->
+                      </div>
+                      <div class="form-group">
+                        <select name="Interested In" class="form__control">
+                          <option value="interest1">Interested In</option>
+                          <option value="interest2">Interest2</option>
+                          <option value="interest3">Interest1</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <textarea name="textarea" rows="4" cols="12" placeholder="Note"
+                          class="form__control"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <button type="button" class="btn btn-lg">Submit Your Request</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="sidebar">
+                  <h2 class="sidebar-widget__title">Recent Projects</h2>
+                  <div class="row row-sm">
+                    <div class="col col-4">
+                      <div class="widget-image">
+                        <img src="assets/images/widgets/project-1.jpg" alt="Image of widget1" width="113" height="110">
+                      </div>
+                    </div>
+                    <div class="col col-4">
+                      <div class="widget-image">
+                        <img src="assets/images/widgets/project-2.jpg" alt="Image of widget2" width="113" height="110">
+                      </div>
+                    </div>
+                    <div class="col col-4">
+                      <div class="widget-image">
+                        <img src="assets/images/widgets/project-3.jpg" alt="Image of widget3" width="113" height="110">
+                      </div>
+                    </div>
+                    <div class="col col-4">
+                      <div class="widget-image">
+
+                        <img src="assets/images/widgets/project-4.jpg" alt="Image of widget4" width="113" height="110">
+                      </div>
+                    </div>
+                    <div class="col col-4">
+                      <div class="widget-image">
+
+                        <img src="assets/images/widgets/project-5.jpg" alt="Image of widget5" width="113" height="110">
+                      </div>
+                    </div>
+                    <div class="col col-4">
+                      <div class="widget-image">
+
+                        <img src="assets/images/widgets/project-6.jpg" alt="Image of widget6" width="113" height="110">
+                      </div>
+
+                    </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+
+        <div class="container">
+          <div class="footer-top">
+            <div class="row"><!--footer-top-->
+              <div class="col col-5"><!--col-->
+                <a href="#" class="footer__site-logo"><img src="assets/images/logo-white.png"
+                    alt="Image of white logo"></a>
+                <p class="footer__body">
+                  In an infinite life,everything is materializes at one time <br>
+                  or another ,so the concept of choice is suprious.The <br>
+                  realization of our finiteness forces us to choose <br>
+                  among alternatives.
+                </p>
+              </div>
+              <nav class="col col-7"><!--col  footer__nav-->
+                <div class="row"> <!--row-->
+                  <div class="col col-4"> <!--col  nav__row-->
+                    <h3 class="nav__title">Product</h3>
+                    <ul class="nav">
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Features</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Pricing</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Tour</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Shop</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col col-4"> <!--col  nav__row-->
+                    <h3 class="nav__title">Info</h3>
+                    <ul class="nav">
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">About</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Content</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Job</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col col-4"> <!--col--><!--nav__row-->
+                    <h3 class="nav__title">Support</h3>
+                    <ul class="nav">
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">Support Center</a>
+                      </li>
+                      <li class="nav__item ">
+                        <a href="#" class="nav__link">Help Desk</a>
+                      </li>
+                      <li class="nav__item">
+                        <a href="#" class="nav__link">FAQS</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </nav>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <ul class="social-info">
+              <li class="social-info__item">
+                <a href="#" class="social-info__link">
+                  <i class="bi bi-facebook"></i><!--icon face-->
+                </a>
+              </li>
+              <li class="social-info__item">
+                <a href="#" class="social-info__link">
+                  <i class="bi bi-google"></i><!--icon google-->
+                </a>
+              </li>
+              <li class="social-info__item">
+                <a href="#" class="social-info__link">
+                  <i class="bi bi-twitter"></i><!--icon twitter-->
+                </a>
+              </li>
+              <li class="social-info__item">
+                <a href="#" class="social-info__link">
+                  <i class="bi bi-linkedin"></i><!--icon linkdin-->
+                </a>
+              </li>
+            </ul>
+
+            <div class="footer-copyright">
+              <span>&#169; 2018 Grow Garden theme by IRON</span>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+    </div>
+  </body>
+
+</html>
